@@ -7,10 +7,10 @@ footer{
 }
 
 section[epub|type~="halftitlepage"] > p{
-	text-align: center;
+	font-style: italic;
 	margin-left: 25%;
 	margin-right: 25%;
-	font-style: italic;
+	text-align: center;
 }
 
 /* Centered dedications */
