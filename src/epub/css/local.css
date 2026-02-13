@@ -1,6 +1,18 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+section[epub|type~="halftitlepage"] > p{
+	text-align: center;
+	margin-left: 25%;
+	margin-right: 25%;
+	font-style: italic;
+}
+
 /* Centered dedications */
 section[epub|type~="dedication"]{
 	font-variant: small-caps;
@@ -9,13 +21,14 @@ section[epub|type~="dedication"]{
 
 section[epub|type~="dedication"] > *{
 	display: inline-block;
+	line-height: 300%;
 	margin: auto;
 	margin-top: 3em;
 	max-width: 80%;
 }
 
 section[epub|type~="dedication"] b{
-        font-size: larger;
+	font-size: larger;
 }
 
 @supports(display: flex){
