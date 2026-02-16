@@ -13,6 +13,13 @@ section[epub|type~="halftitlepage"] > p{
 	text-align: center;
 }
 
+p.subsection{
+	font-weight: bold;
+	margin-bottom: 1em;
+	margin-top: 2em;
+	text-align: center;
+}
+
 /* Centered dedications */
 section[epub|type~="dedication"]{
 	font-variant: small-caps;
