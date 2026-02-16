@@ -28,6 +28,7 @@
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Varieties of Religious Experience</dc:title>
+		<meta property="title-type" refines="#title">main</meta>
 		<meta property="file-as" refines="#title">Varieties of Religious Experience, The</meta>
 		<dc:title id="subtitle">His Last Venture</dc:title>
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
