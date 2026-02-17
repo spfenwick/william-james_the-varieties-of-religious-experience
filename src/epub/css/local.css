@@ -21,6 +21,10 @@ p.subsection{
 	text-indent: 0;
 }
 
+ol > li::marker{
+	font-variant-numeric: oldstyle-nums;
+}
+
 /* Centered dedications */
 section[epub|type~="dedication"]{
 	font-variant: small-caps;
