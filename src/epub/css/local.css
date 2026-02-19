@@ -21,6 +21,19 @@ p.subsection{
 	text-indent: 0;
 }
 
+p.appendix{
+	font-weight: bold;
+	margin-top: 2em;
+	text-align: center;
+	text-indent: 0;
+}
+
+p.appendix-note{
+	margin-bottom: 1em;
+	text-align: center;
+	text-indent: 0;
+}
+
 ol > li::marker{
 	font-variant-numeric: oldstyle-nums;
 }
