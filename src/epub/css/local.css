@@ -11,12 +11,14 @@ h3{
 	margin-top: 2em;
 }
 
-h3.appendix{
+section#lectures-4-and-5-1 h3{
 	margin-bottom: 0;
 }
 
-.appendix-note{
+[epub|type~="bridgehead"]{
+	font-style: italic;
 	margin-bottom: 1em;
+	margin-top: 0;
 	text-align: center;
 	text-indent: 0;
 }
