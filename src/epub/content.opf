@@ -30,7 +30,7 @@
 		<dc:title id="title">The Varieties of Religious Experience</dc:title>
 		<meta property="title-type" refines="#title">main</meta>
 		<meta property="file-as" refines="#title">Varieties of Religious Experience, The</meta>
-		<dc:title id="subtitle">His Last Venture</dc:title>
+		<dc:title id="subtitle">A Study in Human Nature</dc:title>
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<meta property="file-as" refines="#subtitle">A Study in Human Nature</meta>
 		<dc:title id="fulltitle">The Varieties of Religious Experience: A Study in Human Nature</dc:title>
